@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <report auto="False" id="test_odt_report" model="res.partner" name="res.partner.odt" rml="report_relatorio_demo/report/partner.odt" string="ODT Report"/>
+
+        <record id="test_odt_report" model="ir.actions.report.xml">
+            <field name="report_type">odt</field>
+        </record>
+
+    </data>
+</openerp>
